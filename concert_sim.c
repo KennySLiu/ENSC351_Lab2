@@ -1,4 +1,3 @@
-#include "ticket_lock.h"
 #include "kenny_include.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -215,6 +214,7 @@ void perform_stat_analysis(){
             printf("%lf, ", t_outliers[i]);
         }
     }
+    fflush(stdout);
 
 }
 
